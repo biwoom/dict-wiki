@@ -1,0 +1,18 @@
+{% extends "wiki/base_site.html" %}
+
+{# Intentionally empty, to allow easy customization with no copy-paste #}
+
+ <!--custom setting 커스텀 설정-->
+
+{% block wiki_site_title %} - Nalanda Wiki{% endblock %}
+
+{% block wiki_header_branding %}
+<a class="navbar-brand" href="{% url 'wiki:root' %}">Nalanda Dict</a>
+{% endblock %}
+
+{% block wiki_header_navlinks %}
+<ul class="nav navbar-nav">
+  <!--<li class=""><a href="{% url 'wiki:root' %}"> WIKI </a></li>-->
+  <!--<li class=""><a href="http://www.nalanda.or.kr/" target="_blank"> INB </a></li>-->
+</ul>
+{% endblock %}

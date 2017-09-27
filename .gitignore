@@ -1,0 +1,41 @@
+*.pyc
+*~
+__pycache__
+*.bak
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+#wiki_site/db/
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+# Images File #
+######################
+wiki_site/media/cache/
+wiki_site/media/wiki/images/
+wiki_site/media/wiki/attachments/
